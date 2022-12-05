@@ -1,0 +1,17 @@
+{
+  "name": "vue-start",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^3.2.45"
+  },
+  "devDependencies": {
+    "serve": "^14.1.2"
+  }
+}

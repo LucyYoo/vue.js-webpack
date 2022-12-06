@@ -1,6 +1,12 @@
 <template>
-  <h1>hello</h1>
+  <h1>Hello</h1>
 </template>
+
+<script>
+export default {
+
+};
+</script>
 
 <style scoped>
 h1 {

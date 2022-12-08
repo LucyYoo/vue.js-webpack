@@ -13,8 +13,8 @@ module.exports = {
   entry: "./src/main.js",
   output: {
     path: path.resolve(__dirname, "dist"),
+    publicPath: "/",
     clean: true,
-    filename: "hello.js", //생략하면 entry의 이름으로 저장됨
   },
   module: {
     rules: [
@@ -37,4 +37,7 @@ module.exports = {
       patterns: [{ from: "static/favicon.ico" }],
     }),
   ], //플러그인을 가져와야 제대로 동작된다.
+  devServer: {
+    historyApiFallback: true,
+  },
 };

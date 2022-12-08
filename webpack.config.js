@@ -19,6 +19,11 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: "babel-loader",
+      },
+      {
         test: /\.vue$/, //.vue 확장자를 찾는 정규표현식
         use: "vue-loader",
       },
